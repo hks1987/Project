@@ -28,9 +28,9 @@ if __name__ == '__main__':
     
 		
     # 인증 환경 변수 설정
-    #os.system("export GOOGLE_APPLICATION_CREDENTIALS=/home/pi/project-f569b8cb9f6f.json")
+    #os.system("export GOOGLE_APPLICATION_CREDENTIALS=your key")
     # 위 환경변수 명령어는 자식 프로세스에서는 가능하지않다. 
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/home/pi/project-f569b8cb9f6f.json"
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "your key"
 		
     # 인코딩 설정
     reload(sys)
